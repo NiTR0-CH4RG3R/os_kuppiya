@@ -17,8 +17,8 @@ CPROGS = $(patsubst src/%.c, bin/%.exe, $(CSRCS))
 CXXPROGS = $(patsubst src/%.cpp, bin/%cpp.exe, $(CXXSRCS))
 
 CCOMMONFLAGS = -g -O0
-CFLAGS = -std=c11
-CXXFLAGS = -std=c++17
+CFLAGS = -std=gnu17
+CXXFLAGS = -std=gnu++17
 
 LFLAGS = 
 
